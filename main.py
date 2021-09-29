@@ -1,5 +1,5 @@
 def shareFair(x,y):
-    if x % 10 and y % 10:
+    if x % y:
         return True
     else:
         return False
